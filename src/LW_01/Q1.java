@@ -1,15 +1,16 @@
 package LW_01;
 
-import  java.util.Scanner;
 
+import  java.util.*;
 
 public class Q1 {
-  public static void    main(String[] args){
-      Scanner wd = new Scanner(System.in);
-      System.out.print("enter word:");
-      String word = wd.nextLine();
-      int length = word.length();
-      char letter =  word.charAt(length/2 + 1);
-      System.out.println(letter);
-  }
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter odd lettetr word:");
+        String word = scanner.next();
+        int x = (word.length()) / 2;
+        char middle = word.charAt(x);
+        System.out.println( "\nMiddle letter is:-" +  middle);
+    }
+
 }

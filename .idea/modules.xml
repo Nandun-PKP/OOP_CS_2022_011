@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/OOP_CS_2022_011.iml" filepath="$PROJECT_DIR$/OOP_CS_2022_011.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/newJava.iml" filepath="$PROJECT_DIR$/newJava.iml" />
+>>>>>>> 1bea569 (Updated project with new java files)
     </modules>
   </component>
 </project>
